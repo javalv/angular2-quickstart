@@ -14,6 +14,10 @@ export class LoadingShade{
     constructor( ) {
     }
 
+    ngOnInit(){
+        this.hide = true;
+    }
+
     @Input() loaded:boolean = false;
     ngOnChanges(){
         console.log("ngOnChanges")
@@ -26,6 +30,7 @@ export class LoadingShade{
     }
 
     hasLoaded(){
+        this.hide = false;
         console.log("has loaded...");
     }
 

@@ -23,12 +23,12 @@ export class MyListPageComponent extends BaseComponent{
         setTimeout(()=>{
             super.onLoaded();
 
-        },2000)
+        },1000)
     }
 
-    ngAfterViewInit() {
-        super.onLoaded();
-    }
+    //ngAfterViewInit() {
+    //    super.onLoaded();
+    //}
 
     onSelect(name) {
         this.router.navigate(['/hero', name]);
