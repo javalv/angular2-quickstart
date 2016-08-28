@@ -25,4 +25,10 @@ export class LoadingShade{
         }
     }
 
+    hasLoaded(){
+        console.log("has loaded...");
+    }
+
+
+
 }
