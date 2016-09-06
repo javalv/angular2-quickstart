@@ -31,6 +31,6 @@ export class MyListPageComponent extends BaseComponent{
     //}
 
     onSelect(name) {
-        this.router.navigate(['/hero', name]);
+        this.router.navigate(['/heroes', name]);
     }
 }

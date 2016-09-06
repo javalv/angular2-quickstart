@@ -8,7 +8,8 @@ body {
 }
 
 .active{
-    background-color: red;
+    color: white;
+    background-color: #080808;
 }
 /*
  * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css

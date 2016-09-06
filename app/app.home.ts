@@ -4,4 +4,7 @@ import {Component} from '@angular/core';
     template: `HOME`
 })
 export class MyHomePageComponent {
+    ngOnInit(){
+        console.log("home...")
+    }
 }
