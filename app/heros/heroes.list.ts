@@ -1,6 +1,5 @@
 import {Component,ViewChild} from '@angular/core';
 import {Router} from "@angular/router";
-import {LoadingShade} from "../common/com.loading";
 import {BaseComponent} from "../common/com.base";
 @Component({
     selector: 'my-list-page',
@@ -9,7 +8,8 @@ import {BaseComponent} from "../common/com.base";
                     <div (click)="onSelect('lisi')">李四</div>
                 </div>
                 <load-shade ></load-shade>`,
-    directives:[LoadingShade]
+    // directives:[LoadingShade]
+
 
 })
 export class MyListPageComponent extends BaseComponent{

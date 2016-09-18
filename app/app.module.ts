@@ -6,6 +6,12 @@ import { routing,
 import {FormsModule} from "@angular/forms";
 import {MyHomePageComponent} from "./app.home";
 import {HeroesModule} from "./heros/heroes.module";
+import {MissionControlComponent} from "./serviceSubjectNotice/subject.controller";
+import {AstronautComponent} from "./serviceSubjectNotice/subject.component";
+import {MyOutputComponent} from "./app.outputtest";
+import {MyEs6TestComponent} from "./es6/app.es6";
+import {VoterComponent} from "./common/com.output";
+// import {LoadingShade} from "./common/com.loading";
 @NgModule({
     imports: [
         BrowserModule,
@@ -15,8 +21,12 @@ import {HeroesModule} from "./heros/heroes.module";
     ],
     declarations: [
         AppComponent,
-        // MyListPageComponent,
-        MyHomePageComponent
+        MyHomePageComponent,
+        MissionControlComponent,
+        AstronautComponent,
+        MyOutputComponent,
+        MyEs6TestComponent,
+        VoterComponent
     ],
     providers: [
         appRoutingProviders

@@ -4,6 +4,7 @@ import {FormsModule} from "@angular/forms";
 import { heroesRouting } from './heroes.routing';
 import {MyListPageComponent} from "./heroes.list";
 import {MyDetailComponent} from "./heros.detail";
+import {LoadingShade} from "../common/com.loading";
 
 @NgModule({
     imports: [
@@ -13,7 +14,8 @@ import {MyDetailComponent} from "./heros.detail";
     ],
     declarations: [
         MyListPageComponent,
-        MyDetailComponent
+        MyDetailComponent,
+        LoadingShade
     ],
     providers: [
         // HeroService

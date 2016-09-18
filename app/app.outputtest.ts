@@ -10,7 +10,7 @@ import {VoterComponent} from './common/com.output';
       (onVoted)="onVotedTest($event)">
     </my-voter>
   `,
-    directives:[VoterComponent]
+    // directives:[VoterComponent]
 })
 export class MyOutputComponent {
     agreed = 0;

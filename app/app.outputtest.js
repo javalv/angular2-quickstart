@@ -9,7 +9,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var com_output_1 = require('./common/com.output');
 var MyOutputComponent = (function () {
     function MyOutputComponent() {
         this.agreed = 0;
@@ -23,7 +22,6 @@ var MyOutputComponent = (function () {
         core_1.Component({
             selector: 'my-output-page',
             template: "\n    <h2>Should mankind colonize the Universe?</h2>\n    <h3>Agree: {{agreed}}, Disagree: {{disagreed}}</h3>\n    <my-voter *ngFor=\"let voter of voters\"\n      [name]=\"voter\"\n      (onVoted)=\"onVotedTest($event)\">\n    </my-voter>\n  ",
-            directives: [com_output_1.VoterComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], MyOutputComponent);

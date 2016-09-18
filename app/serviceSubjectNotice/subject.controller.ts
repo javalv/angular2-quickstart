@@ -17,7 +17,7 @@ import { AstronautComponent } from './subject.component';
       <li *ngFor="let event of history">{{event}}</li>
     </ul>
   `,
-    directives:[AstronautComponent],
+    // directives:[AstronautComponent],
     providers: [MissionService]
 })
 export class MissionControlComponent {
