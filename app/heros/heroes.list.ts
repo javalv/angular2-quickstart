@@ -13,8 +13,10 @@ import {BaseComponent} from "../common/com.base";
 
 })
 export class MyListPageComponent extends BaseComponent{
+
     constructor(private router:Router){
         super();
+        console.log('MyListPageComponent')
     }
 
 

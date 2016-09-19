@@ -5,6 +5,7 @@ import { heroesRouting } from './heroes.routing';
 import {MyListPageComponent} from "./heroes.list";
 import {MyDetailComponent} from "./heros.detail";
 import {LoadingShade} from "../common/com.loading";
+import {HeroesPageComponent} from "./heroes";
 
 @NgModule({
     imports: [
@@ -15,6 +16,7 @@ import {LoadingShade} from "../common/com.loading";
     declarations: [
         MyListPageComponent,
         MyDetailComponent,
+        HeroesPageComponent,
         LoadingShade
     ],
     providers: [

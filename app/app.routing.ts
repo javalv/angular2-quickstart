@@ -9,7 +9,10 @@ const appRoutes: Routes = [
     { path: 'home', component: MyHomePageComponent },
     { path: 'subject', component: MissionControlComponent},
     { path: 'output', component: MyOutputComponent},
-    { path: 'es6', component:MyEs6TestComponent}
+    { path: 'es6', component:MyEs6TestComponent},
+
+    { path: 'heroes', loadChildren: 'app/heros/heroes.module#HeroesModule' },
+
 ];
 
 export const appRoutingProviders: any[] = [
